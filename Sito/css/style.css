@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+body
+{
+	background-color: #92a8d1;
+}
+
+div#wrapper
+{
+	background-color: white;
+	width: 55%;
+	height: auto;
+	border-radius: 5px;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding: 5px;
+}
+
+div#wrapper1
+{
+	background-color: white;
+	width: 55%;
+	height: auto;
+	border-radius: 5px;
+	margin-left: auto;
+  	margin-right: auto;
+  	padding: 5px;
+}
+imput#form
+{
+	text-align:rigth;
+}
+ul#menu {
+	list-style: none;
+	margin:0;
+	padding:0;
+	text-align:center;
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    
+}
+
+ul#menu li {
+	display:block;
+	display: inline-block;
+    background-color: #000000;
+    width: 150px;
+    height: 30px;
+    margin: 2px;
+    
+}
+ul#menu li a {
+    color: #fff;
+    display: inline;
+    font-weight: bold;
+    line-height: 30px;
+    text-decoration: none;
+    width: 150px;
+    height: 30px;
+    text-align: center;
+}
+
+ul#menu li ul
+{
+display: none
+}
+
+ul#menu li:hover ul
+{
+display: block;
+position: absolute;
+z-index:1;
+width:150px;
+padding: 0;
+margin: 0 0 0 -1px;
+border:1px solid black;
+background: white;
+}
+
+ul#menu li li { border:none; width:150px; }
+ul#menu li li a { padding:2px 2px 2px 10px; }
+
+ul#menu li.active, ul#menu li:hover {
+	color: #54BAE2;
+}
+
+ul#menu li:hover a
+{
+	color: red;
+}
+
+img#image
+{
+  max-width: 50%;
+  height: auto;
+	
+}
+
+img#Logo
+{
+  max-width: 100%;
+  height: auto;
+  width: 1000;
+  border-radius: 5px;
+	
+}
+input
+{
+	text-align: left;
+}
